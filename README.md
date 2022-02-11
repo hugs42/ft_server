@@ -9,3 +9,9 @@ To do this, we will introduce you to the "Docker" technology in order to have yo
 ## Subject
 
 The subject can be found [here](/subject.fr.pdf) (french)
+
+## Usage
+
+```
+docker build -t ft_server . && docker run -e AUTOINDEX=off -it -p 80:80 -p 443:443 ft_server
+```
